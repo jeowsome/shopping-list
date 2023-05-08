@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  background-color: #eef0f4;
+  color: #432000;
+  user-select: none;
+}
+
+button {
+  color: #fdfdfd;
+  background-color: #ac485a;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  max-width: 320px;
+}
+
+img {
+  width: 150px;
+  margin: 0 auto;
+}
+
+#input-field {
+  color: #432000;
+  background-color: #dce1eb;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+#add-button {
+  margin-top: 10px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+#add-button:hover {
+  background-color: #432000;
+}
+
+#shopping-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  font-size: 20px;
+  background-color: #fffdf8;
+  padding: 15px;
+  border-radius: 8px;
+  flex-grow: 1;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.item:hover {
+  background-color: #ffecc7;
+}
